@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_EQUIPES
+    description: "Modèle de staging pour les équipes, nettoyé et typé."
+    columns:
+      - name: EQUIPE_ID
+        description: "Clé primaire de l'équipe."
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_STADES
+    description: "Modèle de staging pour les stades."
+    columns:
+      - name: STADE_ID
+        description: "Clé primaire du stade."
+        tests:
+          - unique
+          - not_null

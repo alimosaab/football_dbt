@@ -1,4 +1,9 @@
-dbt-dev/
+# Dossiers de compilation et logs
 target/
 logs/
+
+# Dépendances (si tu utilises des packages externes)
 dbt_packages/
+
+# Variables d'environnement sensibles (si tu en as)
+.env

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: champions_raw
+    database: warehouse_soccer
+    schema: CHAMPIONS_LIGUE
+    tables:
+      - name: STADES
+      - name: EQUIPES
