@@ -1,9 +1,16 @@
 # Dossiers de compilation et logs
 target/
 logs/
-
+# Environnement et Formation (Ignorés comme demandé)
+BDD/
+dbt-env/
+Formation_DBT/
 # Dépendances (si tu utilises des packages externes)
 dbt_packages/
+
+# Fichiers de configuration personnelle
+.user.yml
+installation.txt
 
 # Variables d'environnement sensibles (si tu en as)
 .env
