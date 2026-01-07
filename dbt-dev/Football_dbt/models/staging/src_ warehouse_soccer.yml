@@ -3,7 +3,22 @@ version: 2
 sources:
   - name: champions_raw
     database: warehouse_soccer
-    schema: CHAMPIONS_LIGUE
+    schema: CHAMPIONS_LEAGUE
     tables:
+      - name: POSTES_REFERENCE
+      - name: TYPES_BUTS_REFERENCE
       - name: STADES
+      - name: SAISONS
+      - name: ENTRAINEURS
+      - name: JOUEURS
       - name: EQUIPES
+      - name: JOURNEES
+      - name: JOUEURS_EQUIPE_SAISON
+      - name: ENTRAINEURS_EQUIPE_SAISON
+      - name: SAISON_EQUIPES
+      - name: MATCHS
+      - name: BUTS
+      - name: TRANSFERTS
+      - name: RELEGATIONS
+      - name: PROMOTIONS
+      - name: STATS_JOUEURS_MATCHS

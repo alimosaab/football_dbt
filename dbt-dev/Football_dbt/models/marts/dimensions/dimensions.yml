@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: dim_joueurs
+    columns:
+      - name: JOUEUR_ID
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_equipes
+    columns:
+      - name: EQUIPE_ID
+        tests:
+          - unique
+          - not_null
+      - name: NOM_EQUIPE
+        tests:
+          - not_null
